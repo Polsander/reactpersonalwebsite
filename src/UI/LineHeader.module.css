@@ -1,0 +1,11 @@
+.header {
+    background-color: rgb(44, 43, 43);
+    box-shadow: -2px 2px 5px black;
+    height: 80px;
+    align-items: center;
+}
+
+.header h2 {
+    color: white;
+
+}

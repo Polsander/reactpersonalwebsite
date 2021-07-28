@@ -1,0 +1,5 @@
+.personalimage {
+    border-radius: 10%;
+    transform: scale(0.8);
+    box-shadow: -2px 2px 5px black;
+}
