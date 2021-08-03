@@ -16,12 +16,12 @@ const AboutMe = (props) => {
 
     function showButtonHandler() {
 
-         
-        if(revealParagraph) {
+
+        if (revealParagraph) {
             setRevealParagraph(false);
             setButtonDrop(false);
             return;
-             
+
         }
         else {
             setRevealParagraph(true);
@@ -39,10 +39,10 @@ const AboutMe = (props) => {
                     <h4>{props.title}</h4>
                 </div>
                 <div className="text-center">
-                    <DropButton onDropClick={showButtonHandler} svgIcon = {buttonDrop} />
-                    <span>
-                        {revealParagraph && paragraphDesc}
-                    </span>
+                    <DropButton onDropClick={showButtonHandler} svgIcon={buttonDrop} />
+                        <span className={classes.transition}>
+                            {revealParagraph && paragraphDesc}
+                        </span>
                 </div>
             </div>
 

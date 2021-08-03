@@ -4,6 +4,8 @@ import Header from './components/Header/Header';
 import BootstrapLayout from './UI/BootstrapLayout';
 import Introduction from './components/Intro/Introduction';
 import Projects from './components/Skills/Projects';
+import Experience from './components/Experience/Experience';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
         <Header />
         <Introduction />
         <Projects />
+        <Experience />
+        <Footer/>
       </BootstrapLayout>
     </React.Fragment>
   )
