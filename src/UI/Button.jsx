@@ -6,12 +6,14 @@ const Button = (props) => {
     return (
         <div className="row mt-5 mb-4 text-center">
             <div className={`${classes.buttonStyle}`}>
-            <button>
-                {props.buttonText}
-            </button>
+                <a href={props.buttonLink}>
+                    <button>
+                        {props.buttonText}
+                    </button>
+                </a>
+            </div>
         </div>
-        </div>
-        
+
 
     )
 }

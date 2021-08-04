@@ -30,7 +30,7 @@ const Experience = () => {
         <Fragment>
             <LineHeader headerTitle="My Experience" />
             <div className="row">
-                <div className=" mt-2 col justify-content-center">
+                <div className=" mt-2 col-lg-6 col-md-6 col-sm-12 justify-content-center">
                     <Card >
                         <TextList />
                     </Card>
@@ -41,7 +41,7 @@ const Experience = () => {
                     </Card>
                 </div>
             </div>
-            <Button buttonText="My Resume" />
+            <Button buttonLink="https://drive.google.com/file/d/1WilHoq9jXwq1YZ9-70BcvUGiqsKFjeq4/view?usp=sharing" buttonText="My Resume" />
 
 
         </Fragment>
