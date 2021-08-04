@@ -2,6 +2,10 @@
   "name": "mern",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm":"6.14.12",
+    "node": "14.16.1"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -18,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "https://www.olivererdmann.herokuapp.com",
   "eslintConfig": {
     "extends": [
       "react-app",
