@@ -53,7 +53,7 @@ const Projects = () => {
                     projectLink="http://www.brothersingaming2.com/"
                 />
             </div>
-            <div className={classes.aboutme}>
+            <div className={`${classes.aboutme}`}>
                 <AboutMe title="Wait!"
                     paragraphText={<div className={classes.paragraphBlock}>
                         <p>I almost forgot! This website was developed by me too. 😀 </p>

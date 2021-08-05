@@ -1,6 +1,7 @@
 .aboutme {
     margin-left: 25%;
     margin-right: 25%;
+    margin-bottom: 5%;
 }
 
 @media screen and (max-width: 500px) {
@@ -8,6 +9,13 @@
         margin-left: 10%;
         margin-right: 10%;
     }
+}
+
+@media screen and (min-width: 1700px) {
+    .aboutme {
+        margin-top: 160px;
+        margin-bottom: 120px;
+    }   
 }
 
 .here {
