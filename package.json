@@ -1,0 +1,24 @@
+{
+  "name": "reactpersonalwebsite",
+  "version": "1.0.0",
+  "description": "Personal web portfolio for Oliver Erdmann - Github: @Polsander",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polsander/reactpersonalwebsite.git"
+  },
+  "author": "Oliver Erdmann - @Polasander (Github)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Polsander/reactpersonalwebsite/issues"
+  },
+  "homepage": "https://github.com/Polsander/reactpersonalwebsite#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
