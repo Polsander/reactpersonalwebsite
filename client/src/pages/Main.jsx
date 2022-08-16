@@ -1,11 +1,12 @@
 import React from 'react'
 
 //below are imports for any components that may be used
+import Banner from '../components/Banner'
 
 function Main() {
   return (
     <div>
-        <p>Woah step bro! What are you doing!?</p>
+        <Banner/>
     </div>
   )
 }
