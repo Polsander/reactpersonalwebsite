@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 import personal_image from '../assets/myimg.png'
 
 //style sheet
-import styles from './About.module.css'
 
 function About() {
   return (
