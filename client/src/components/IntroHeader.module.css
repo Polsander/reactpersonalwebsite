@@ -7,4 +7,9 @@
 .name {
     font-weight: 700;
     font-size: 4em;
+    color: rgb(65, 63, 63);
+}
+
+.lastname {
+    color: rgb(140, 13, 13);
 }
