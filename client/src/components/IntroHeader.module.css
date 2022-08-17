@@ -1,2 +1,10 @@
-.intro{
+
+.subtext{
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 4em;
 }
