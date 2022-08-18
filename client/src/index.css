@@ -13,12 +13,24 @@ body {
 .cstm-primary {
     color: rgb(99, 63, 48);
 }
-.cstm-secondary {
-    color: rgb(243, 229, 129);
+.cbg-primary {
+    background-color: #efefef;
 }
+
+.cstm-secondary {
+    color: rgb(140, 13, 13);
+}
+.cbg-secondary {
+    background-color: rgb(140, 13, 13);
+}
+
 .cstm-tertiary {
     color: rgb(31, 79, 42);
 }
+.cbg-tertiary {
+    background-color: rgb(31, 79, 42);
+}
+
 .cstm-text {
     color: rgb(65, 63, 63);
 }

@@ -1,0 +1,16 @@
+/* custom buttons */
+
+.btn {
+    background-color: rgb(140, 13, 13) !important;
+    border-color: rgb(140, 13, 13) !important;
+}
+.btn:hover {
+    background-color: rgb(255, 30, 0) !important;
+    border-color: aliceblue !important;
+    color: aliceblue !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}

@@ -4,6 +4,7 @@ import React from 'react'
 import Banner from '../components/Banner'
 import IntroHeader from '../components/IntroHeader'
 import About from '../components/About'
+import Network from '../components/Network'
 
 function Main() {
   return (
@@ -12,6 +13,7 @@ function Main() {
           <IntroHeader/>
         </Banner>
         <About/>
+        <Network/>
     </div>
   )
 }
