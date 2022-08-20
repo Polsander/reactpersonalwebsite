@@ -5,6 +5,7 @@ import Banner from '../components/Banner'
 import IntroHeader from '../components/IntroHeader'
 import About from '../components/About'
 import Network from '../components/Network'
+import Skills from '../components/Skills'
 
 function Main() {
   return (
@@ -14,6 +15,7 @@ function Main() {
         </Banner>
         <About/>
         <Network/>
+        <Skills/>
     </div>
   )
 }
