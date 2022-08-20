@@ -6,6 +6,7 @@ import IntroHeader from '../components/IntroHeader'
 import About from '../components/About'
 import Network from '../components/Network'
 import Skills from '../components/Skills'
+import Projects from '../components/Projects'
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
         <About/>
         <Network/>
         <Skills/>
+        <Projects/>
     </div>
   )
 }
