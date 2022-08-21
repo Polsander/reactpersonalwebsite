@@ -2,7 +2,6 @@ import React from 'react'
 
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
-import Col from 'react-bootstrap/esm/Col'
 
 import Project from './Project'
 
@@ -36,6 +35,7 @@ function Projects() {
                 projectTitle = "BrothersInGaming Full Stack App"
                 description = {description1}
                 buttonTitle = "Source Code"
+                buttonLink = 'https://github.com/Polsander/gaming-blog'
                 imgSrc={brothersingaming2}
                 />
                 <hr />
@@ -46,6 +46,7 @@ function Projects() {
                 projectTitle = "Inventory Tracker"
                 description = {description2}
                 buttonTitle = "Source Code"
+                buttonLink = "https://github.com/Polsander/inventory-and-stock-tracker"
                 imgSrc={ozone}
                 />
                 <hr />
@@ -56,6 +57,7 @@ function Projects() {
                 projectTitle = "BrothersInGaming"
                 description = {description3}
                 buttonTitle = "Website"
+                buttonLink = "https://www.brothersingaming.com/"
                 imgSrc={big}
                 />
                 <hr />
