@@ -5,8 +5,10 @@ import Typed from 'react-typed'
 import styles from './IntroHeader.module.css'
 
 function IntroHeader() {
+  const overlay = `${styles.overlay} d-flex align-items-center justify-content-center`
   return (
-    <div>
+    <div className={overlay}>
+      <div>
       <h1 className={styles.name} >Oliver Erdmann</h1>
       <span className={styles.lastname}>
       <Typed
@@ -19,6 +21,7 @@ function IntroHeader() {
       loop
       />
       </span>
+      </div>
     </div>
     
   )

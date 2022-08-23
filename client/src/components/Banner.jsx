@@ -1,18 +1,24 @@
 import React from 'react'
 
-import bgvideo from '../assets/bgvideo.mp4'
+import styles from './Banner.module.css'
 import bgvideo2 from '../assets/bgvideo2.mp4'
-//styles sheet
-import styles from './Banner.module.css';
+
+import Container from 'react-bootstrap/esm/Container'
+import Row from 'react-bootstrap/esm/Row'
+
 
 function Banner(props) {
+  // Style variables
+  const boxShadow = props.boxShadow ? 'shadow' : null;
+  const bannerStyle = `${styles.banner} ${boxShadow}`
+
   return (
-    <div className={styles.banner}>
-        <video src={bgvideo2} autoPlay loop muted/>
-        <div className={styles.overlay}>
-            {props.children}
-        </div>
-    </div>
+    <Container fluid style={{height: props.height}} className={bannerStyle}>
+        <Row>
+            <video src={bgvideo2} style={{height: props.height}} autoPlay loop muted/>
+                {props.children}
+        </Row>
+    </Container>
   )
 }
 
