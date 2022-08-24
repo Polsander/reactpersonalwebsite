@@ -19,8 +19,11 @@ function Main() {
       <Network/>
       <Skills/>
       <Projects/>
-      <Banner height={225}>
-      </Banner>
+      <div className='mt-5 pt-5'>
+        <Banner height={225}>
+          <Footer/>
+        </Banner>
+      </div>
     </div>
   )
 }

@@ -1,4 +1,6 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import AOS from 'aos'
+import "aos/dist/aos.css"
 
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
@@ -10,6 +12,13 @@ import ozone from '../assets/projectphotos/ozone.PNG'
 import big from '../assets/projectphotos/big.png'
 
 function Projects() {
+    useEffect(() => {
+        AOS.init({
+            duration: 1600,
+            once: true,
+        });
+    });
+
     const description1 = `A full-stack functional mock of a gaming blog known as BrothersInGaming. Written with EJS templating,
      Express backend, and utilizes a MongoDB database. Users are permitted to create accounts, publish their own images and articles,
      as well as post their own comments. Certain routes are protected with middleware and has standard authentication and authorization.
@@ -29,39 +38,45 @@ function Projects() {
             </Container>
         </div>
         <Container>
-            <Row>
-                <Project 
-                side="left"
-                projectTitle = "BrothersInGaming Full Stack App"
-                description = {description1}
-                buttonTitle = "Source Code"
-                buttonLink = 'https://github.com/Polsander/gaming-blog'
-                imgSrc={brothersingaming2}
-                />
-                <hr />
-            </Row>
-            <Row>
-                <Project
-                side="right"
-                projectTitle = "Inventory Tracker"
-                description = {description2}
-                buttonTitle = "Source Code"
-                buttonLink = "https://github.com/Polsander/inventory-and-stock-tracker"
-                imgSrc={ozone}
-                />
-                <hr />
-            </Row>
-            <Row>
-                <Project
-                side="left"
-                projectTitle = "BrothersInGaming"
-                description = {description3}
-                buttonTitle = "Website"
-                buttonLink = "https://www.brothersingaming.com/"
-                imgSrc={big}
-                />
-                <hr />
-            </Row>
+            <div data-aos="fade-right" data-aos-once="true">
+                <Row>
+                    <Project 
+                    side="left"
+                    projectTitle = "BrothersInGaming Full Stack App"
+                    description = {description1}
+                    buttonTitle = "Source Code"
+                    buttonLink = 'https://github.com/Polsander/gaming-blog'
+                    imgSrc={brothersingaming2}
+                    />
+                    <hr />
+                </Row>
+            </div>
+            <div data-aos="fade-left" data-aos-once="true">
+                <Row>
+                    <Project
+                    side="right"
+                    projectTitle = "Inventory Tracker"
+                    description = {description2}
+                    buttonTitle = "Source Code"
+                    buttonLink = "https://github.com/Polsander/inventory-and-stock-tracker"
+                    imgSrc={ozone}
+                    />
+                    <hr />
+                </Row>
+            </div>
+            <div data-aos="fade-left" data-aos-once="true">
+                <Row>
+                    <Project
+                    side="left"
+                    projectTitle = "BrothersInGaming"
+                    description = {description3}
+                    buttonTitle = "Website"
+                    buttonLink = "https://www.brothersingaming.com/"
+                    imgSrc={big}
+                    />
+                    <hr />
+                </Row>
+            </div>
         </Container>
     </div>
   )
