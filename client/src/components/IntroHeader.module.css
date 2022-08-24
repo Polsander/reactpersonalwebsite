@@ -1,0 +1,26 @@
+
+.subtext{
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 4em;
+    color: rgb(65, 63, 63);
+}
+
+.lastname {
+    color: rgb(140, 13, 13);
+}
+
+.overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
