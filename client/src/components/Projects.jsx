@@ -64,7 +64,7 @@ function Projects() {
                     <hr />
                 </Row>
             </div>
-            <div data-aos="fade-left" data-aos-once="true">
+            <div data-aos="fade-right" data-aos-once="true">
                 <Row>
                     <Project
                     side="left"
