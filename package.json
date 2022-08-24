@@ -4,7 +4,7 @@
   "description": "Personal web portfolio for Oliver Erdmann - Github: @Polsander",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node index.js",
     "heroku-postbuild": "cd client && npm install --force && npm run build"
   },
   "repository": {
