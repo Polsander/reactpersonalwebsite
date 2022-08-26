@@ -1,0 +1,15 @@
+.icon {
+    height: 3.0em;
+    width: 3.0em;
+}
+
+
+
+.anchor, .anchor:hover, .anchor:focus, .anchor:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.anchor:hover {
+    color: rgb(140, 13, 13);
+}
