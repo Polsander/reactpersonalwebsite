@@ -15,7 +15,7 @@ function Banner(props) {
   return (
     <Container fluid style={{height: props.height}} className={bannerStyle}>
         <Row>
-            <video src={bgvideo2} style={{height: props.height}} autoPlay loop muted/>
+            <video playsInline src={bgvideo2} style={{height: props.height}} autoPlay loop muted/>
                 {props.children}
         </Row>
     </Container>
