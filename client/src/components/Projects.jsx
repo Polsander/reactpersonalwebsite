@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
@@ -12,12 +12,12 @@ import ozone from '../assets/projectphotos/ozone.PNG';
 import big from '../assets/projectphotos/big.png';
 
 function Projects() {
-    useEffect(() => {
-        AOS.init({
-            duration: 1600,
-            once: true,
-        });
-    });
+    // useEffect(() => {
+    //     AOS.init({
+    //         duration: 1600,
+    //         once: true,
+    //     });
+    // });
 
     const description1 = `A full-stack functional mock of a gaming blog known as BrothersInGaming. Written with EJS templating,
      Express backend, and utilizes a MongoDB database. Users are permitted to create accounts, publish their own images and articles,
