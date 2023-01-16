@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import AOS from 'aos'
+import Aos from 'aos'
 import "aos/dist/aos.css"
 
 import Container from 'react-bootstrap/esm/Container'
@@ -13,7 +13,7 @@ import big from '../assets/projectphotos/big.png'
 
 function Projects() {
     useEffect(() => {
-        AOS.init({
+        Aos.init({
             duration: 1600,
             once: true,
         });
