@@ -1,19 +1,19 @@
-import React, {useEffect} from 'react'
-import Aos from 'aos'
-import "aos/dist/aos.css"
+import React, {useEffect} from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-import Container from 'react-bootstrap/esm/Container'
-import Row from 'react-bootstrap/esm/Row'
+import Container from 'react-bootstrap/esm/Container';
+import Row from 'react-bootstrap/esm/Row';
 
-import Project from './Project'
+import Project from './Project';
 
-import brothersingaming2 from '../assets/projectphotos/brothersingaming2.PNG'
-import ozone from '../assets/projectphotos/ozone.PNG'
-import big from '../assets/projectphotos/big.png'
+import brothersingaming2 from '../assets/projectphotos/brothersingaming2.PNG';
+import ozone from '../assets/projectphotos/ozone.PNG';
+import big from '../assets/projectphotos/big.png';
 
 function Projects() {
     useEffect(() => {
-        Aos.init({
+        AOS.init({
             duration: 1600,
             once: true,
         });
