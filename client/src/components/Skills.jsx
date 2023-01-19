@@ -22,6 +22,7 @@ function Skills() {
                         <ul className={styles.list}>
                             <li>Python</li>
                             <li>Javascript</li>
+                            <li>Typescript</li>
                             <li>HTML/CSS</li>
                             <li>PHP</li>
                         </ul>
