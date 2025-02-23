@@ -46,6 +46,7 @@ function Skills() {
                     <h2 className=" cstm-text display-5 mt-5">Databases</h2>
                     <FaDatabase className={iconClass}/>
                     <ul className={styles.list}>
+                        <li>PostgreSQL</li>
                         <li>MongoDB</li>
                         <li>MySQL</li>
                         <li>And learning much more!</li>

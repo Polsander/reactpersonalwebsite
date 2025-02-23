@@ -15,7 +15,7 @@ function Network() {
     <Container>
         <Row className='display-5 mt-5 mb-5'>
             <Col className='py-3 d-flex justify-content-center'>
-                <a href="https://drive.google.com/file/d/1hInSDXYxm8Nl-2-qYpcL4XNifcNfWkJU/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1T9uF5yy-tpiStYhETPf3pviS7hXcE8Md/view?usp=sharing">
                     <Button className={styles.btn} size="lg">Resume</Button>
                 </a>
             </Col>

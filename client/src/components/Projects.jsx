@@ -34,7 +34,7 @@ function Projects() {
     <div>
         <div className='shadow border-top border-bottom my-5 cbg-primary'>
             <Container>
-                <h2 className="cstm-text display-5 mt-5 mb-5"> Interesting Projects</h2>
+                <h2 className="cstm-text display-5 mt-5 mb-5"> Interesting Projects (see more on resume)</h2>
             </Container>
         </div>
         <Container>

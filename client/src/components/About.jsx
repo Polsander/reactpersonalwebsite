@@ -19,13 +19,13 @@ function About() {
                 Hi! My name is Oliver, and welcome to my website! Whether you stumbled on it by chance or you're looking to get to know me better,
                 you can find a few of my projects and social media links here as well as my resume.
                 <br></br><br/>
-                I am currently a chemical engineering student at the University of Waterloo and currently in my 4th year of studies. I am looking for
-                a 4-month co-op/internship in the summer of 2023 to enhance my toolbelt and gain more experience in the real world.
+                I graduated and got my bacherlor's degree in chemical engineering at the University of Waterloo in 2024. Currently, I am doing part time studies and I
+                am working towards getting my master's degree in chemical engineering. I love incorporating software into my projects as I believe that 
+                software can be used as a very powerful both in and out of chemical engineering contexts. I had the pleasure of practicing this when working on building
+                simulations for a process at the German Aerospace Center (DLR).
                 <br></br><br/>
-                I am very passionate in software development (specifically full-stack web development), and love working with new
-                frameworks and back-end servers to build clean, responsive, modern websites. I also greatly enjoy studying and working with chemical engineering concepts
-                with having a particular interest in using numerical methods to solve mass-transfer problems in reactor design. I consider myself a life-long
-                learner who loves working with others and contributes to a collaborative environment.
+                During my part time studies, I am available and looking for part-time or full-time work. I have experience in web development, modelling, simulations,
+                and I am currently working on exposing myself to firmware and embedded software engineering.
                 </Col>
             </Row>
         </Container>
